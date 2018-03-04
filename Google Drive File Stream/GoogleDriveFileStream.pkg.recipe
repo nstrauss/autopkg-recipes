@@ -17,7 +17,7 @@
     <string>com.github.nstrauss.download.GoogleDriveFileStream</string>
     <key>Process</key>
     <array>
-       <dict>
+        <dict>
             <key>Processor</key>
             <string>FlatPkgUnpacker</string>
             <key>Arguments</key>
@@ -38,7 +38,7 @@
                 <key>destination_path</key>
                 <string>%RECIPE_CACHE_DIR%/payload</string>
             </dict>
-        </dict>            
+        </dict>
         <dict>
             <key>Processor</key>
             <string>Versioner</string>
@@ -77,7 +77,7 @@
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
         </dict>
-		<dict>
+        <dict>
             <key>Processor</key>
             <string>CodeSignatureVerifier</string>
             <key>Arguments</key>
