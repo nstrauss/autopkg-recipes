@@ -61,7 +61,7 @@
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
-                    <string>com.pearson.testnav</string>
+                    <string>com.pearson.testnav.desktopapp</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
